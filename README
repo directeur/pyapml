@@ -1,0 +1,53 @@
+What is this?
+=============
+This is an apml parser written in python.
+The doc will follow soon, I promise.
+Until then, take a look at testapml.py 
+test program to get the main idea of the 
+project :)
+
+
+More info:
+=============
+http://xhtml-css.com/blog/pyapml
+http://groups.google.com/group/apml-public
+http://apml.org
+
+
+The files:
+=============
+
+README : This file
+test.apml : an apml file used for tests
+test.py a program used to test the pyapml modules
+
+/pyapml : the python apml modulle
+|
+|__toolbox.py : functions used by the main parser
+|__APMLParser.py : the main apml parser file
+
+
+General use:
+==============
+
+>>>from  pyapml.APMLParser import APMLParser
+>>>parser = APMLParser('file.apml')
+>>>apml = parser.parse()
+
+
+Thanks:
+==============
+Many thanks go to these nice folks:
+
+- Wai Yip Tung (http://tungwaiyip.info) who generously granted 
+permission to include his "xml2obj" function (toolbox.py) 
+in this work
+
+- Mark Pilgrim (http://diveintomark.com) who wrote the 
+the amazing "Dive into Python" in which the "openAnything" 
+function (toolbox.py) was included and offered under the 
+Python Licence.
+
+
+
+See you soon with a more detailed version of this file!
